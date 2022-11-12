@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/testAleanLab/static/css/main.27ea1760.css",
+    "main.js": "/testAleanLab/static/js/main.079414dd.js",
+    "index.html": "/testAleanLab/index.html",
+    "main.27ea1760.css.map": "/testAleanLab/static/css/main.27ea1760.css.map",
+    "main.079414dd.js.map": "/testAleanLab/static/js/main.079414dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27ea1760.css",
+    "static/js/main.079414dd.js"
+  ]
+}
