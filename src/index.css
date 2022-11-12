@@ -1,0 +1,218 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.card {
+    background: #FFFFFF;
+    box-shadow: 2px 1px 7px rgba(0, 0, 0, 0.08), 0px 2px 1px -1px rgba(0, 0, 0, 0.04), 0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+}
+
+.card-img {
+    width: 85px;
+}
+
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.25;
+    letter-spacing: -0.625px;
+    color: #3A4562;
+}
+
+.card-title:hover {
+    color: #55699E;
+}
+
+.card-info span {
+    font-family: 'Montserrat', sans-serif;
+    ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.56;
+    letter-spacing: 0.23619px;
+    color: #878D9D;
+}
+
+.card-details span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5625;
+    text-align: right;
+    letter-spacing: 0.23619px;
+    color: #878D9D;
+}
+
+.jobDetailsHeader-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: 0.413333px;
+    color: #3A4562;
+}
+
+.jobDetails-btn {
+    gap: 8px;
+    align-items: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.5625px;
+    color: #3A4562;
+}
+
+.apply-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+
+.apply-btn:hover {
+    background-color: #55699E;
+}
+
+.jobDetails-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: -0.75px;
+    color: #3A4562;
+    text-align: justify;
+}
+
+@media screen and (min-width: 1024px) {
+    .jobDetails-title {
+        width: 500px;
+    }
+}
+
+.jobDetails-salary {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.25;
+    letter-spacing: -0.625px;
+    color: #3A4562;
+}
+
+.jobDetails-salary:last-child {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.5625px;
+
+}
+
+.jobDetails-updated {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.5625px;
+    color: rgba(56, 65, 93, 0.355988);
+    margin-top: 7px;
+}
+
+.jobDetails-description {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.5625px;
+    text-align: justify;
+    color: #3A4562;
+    margin-top: 7px;
+}
+
+.jobDetails-secondTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: 0.413333px;
+    color: #3A4562;
+    width: 100%;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #D8D8D8;
+    margin-top: 85px;
+}
+
+.jobDetails-benefits {
+    background-color: rgba(255, 207, 0, 0.15);
+    border: 1px solid #FFCF00;
+    border-radius: 8px;
+    padding: 17px 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #988B49;
+}
+
+.jobDetails-img img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.jobDetails-returnBtn {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 90px;
+    padding: 16px 23px;
+    background-color: rgba(56, 69, 100, 0.14);
+    border-radius: 8px;
+    width: fit-content;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3A4562;
+}
+
+.jobDetails-returnBtn:hover {
+    background-color: #55699E;
+}
+
+.map-container {
+    width: 300px;
+    height: 300px;
+
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .map-container {
+        margin-top: 30px;
+    }
+
+}
+
+.status {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.25;
+    letter-spacing: -0.75px;
+    color: #3A4562;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
